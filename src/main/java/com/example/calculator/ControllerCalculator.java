@@ -195,20 +195,6 @@ public class ControllerCalculator {
         });
 
         delete.setOnAction(actionEvent -> {x=x /10; resultat.setText(""+x); });
-
-//        ttransition.setOnAction(actionEvent -> {
-//         ttransition.getScene().getWindow().hide();
-//         FXMLLoader loader=new FXMLLoader();
-//         loader.setLocation(getClass().getResource("hello-view.fxml"));
-//            try {
-//                loader.load();
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }
-//         Stage stage=new Stage();
-//            stage.setScene(new Scene(loader.getRoot()));
-//            stage.show();
-//        });
     }
 
 
