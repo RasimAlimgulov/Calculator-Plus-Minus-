@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="273.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.ControllerCalculator">
+  <children>
+    <Pane prefHeight="52.0" prefWidth="325.0" style="-fx-background-color: #20B2AA;">
+      <children>
+        <Label layoutX="7.0" layoutY="12.0" prefHeight="17.0" prefWidth="164.0" text="Калькулятор" textFill="CHOCOLATE">
+          <font>
+            <Font name="Consolas" size="27.0" />
+          </font>
+        </Label>
+<!--            <Button fx:id="ttransition" layoutX="207.0" layoutY="14.0" mnemonicParsing="false" text="Button" />-->
+      </children>
+    </Pane>
+    <Pane prefHeight="309.0" prefWidth="277.0">
+      <children>
+        <Button fx:id="one" layoutX="17.0" layoutY="112.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="1" />
+        <Button fx:id="two" layoutX="101.0" layoutY="112.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="2" />
+        <Button fx:id="three" layoutX="185.0" layoutY="112.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="3" />
+        <Button fx:id="four" layoutX="17.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="4" />
+        <Button fx:id="five" layoutX="101.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="5" />
+        <Button fx:id="six" layoutX="185.0" layoutY="167.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="6" />
+        <Button fx:id="seven" layoutX="17.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="7" />
+        <Button fx:id="eight" layoutX="101.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="8" />
+        <Button fx:id="nine" layoutX="185.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="9" />
+        <Button fx:id="delete" layoutX="17.0" layoutY="276.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="Delete" />
+        <Button fx:id="zero" layoutX="101.0" layoutY="276.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="0" />
+        <Button fx:id="refresh" layoutX="185.0" layoutY="276.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="refresh" />
+        <Button fx:id="plus" layoutX="17.0" layoutY="63.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="+" />
+        <Button fx:id="minus" layoutX="101.0" layoutY="63.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="-" />
+        <Button fx:id="equal" layoutX="185.0" layoutY="63.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="72.0" text="=" />
+        <Label fx:id="resultat" alignment="TOP_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="235.0" text="0" />
+      </children>
+    </Pane>
+  </children>
+</VBox>
